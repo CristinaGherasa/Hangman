@@ -1,0 +1,35 @@
+.container {
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+}
+.title, .float-right {
+    color: #fff;
+    text-align: center;
+}
+.float-right {
+    position: absolute;
+    right: 50px;
+}
+.image {
+    width: 400px;
+}
+.btn-letter {
+    width: 40px;
+    height: 40px;
+    margin: 25px 5px 0 0;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: aqua;
+}
+.btn-letter:focus {
+    background-color: greenyellow;
+    outline: none;
+}
+.btn-reset {
+    width: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    color: blue;
+}
